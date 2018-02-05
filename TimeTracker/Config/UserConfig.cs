@@ -66,7 +66,7 @@ namespace TimeTracker.Config
 			else
 				ConfigValues = new UserConfigValues
 				{
-					TimeTracker = new TimeTrackerConfig(new TimeSpan(8, 30, 0), new TimeSpan(24, 0, 0), new TimeSpan(0, 0, 30))
+					TimeTracker = new TimeTrackerConfig(new TimeSpan(8, 30, 0), new TimeSpan(17, 0, 0), new TimeSpan(0, 15, 0))
 				};
 
 			ConfigValues.OnConfigChanged += DoOnValuesChanged;
